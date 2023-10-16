@@ -1,0 +1,23 @@
+IMBALANCED		p	r	f1
+logistic regression	0.73	0.53	0.61
+shallow_nn on val:	0.64	0.75	0.76
+random forest on val:	0.77	0.47	0.59
+gradient boost on val:	0.67	0.67	0.67
+linear svm on val:	0.66	0.75	0.70
+
+BALANCED
+Logistic:
+   	Not Fraud       0.96      0.93      0.94        72
+       	    Fraud       0.93      0.96      0.94        70
+Shallow nn 2 relu:
+   	Not Fraud       0.89      1.00      0.94        72
+            Fraud       1.00      0.87      0.93        70
+Random Forest:
+        Not Fraud       0.70      1.00      0.82        72
+       	    Fraud       1.00      0.56      0.72        70
+Gradient Boost:
+	Not Fraud       0.81      1.00      0.89        72
+            Fraud       1.00      0.76      0.86        70
+Linear Svm:
+	Not Fraud       0.88      1.00      0.94        72
+            Fraud       1.00      0.86      0.92        70
