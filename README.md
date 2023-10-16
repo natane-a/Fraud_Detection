@@ -7,13 +7,17 @@ In this section, I'll outline the data engineering steps taken to prepare the da
 
 In this project, I employed extensive data engineering techniques using Pandas and NumPy to prepare the dataset for machine learning. My approach included:
 
-### 1. Normalization: I rescaled all numeric features within the dataset to a standardized range, typically between 0 and 1. Normalization helps ensure that all features contribute equally to the model, preventing dominance by variables with larger scales.
+### 1. Normalization: 
+I rescaled all numeric features within the dataset to a standardized range, typically between 0 and 1. Normalization helps ensure that all features contribute equally to the model, preventing dominance by variables with larger scales.
 
-### 2. Generalization: I conducted feature engineering and generalization by simplifying or aggregating certain features. This not only reduced dimensionality but also enhanced the model's ability to recognize patterns in the data.
+### 2. Generalization: 
+I conducted feature engineering and generalization by simplifying or aggregating certain features. This not only reduced dimensionality but also enhanced the model's ability to recognize patterns in the data.
 
-### 3. Randomization: To eliminate any inherent order or bias in the dataset, I randomized the data, ensuring that the sequence of records would not influence the model's performance.
+### 3. Randomization: 
+To eliminate any inherent order or bias in the dataset, I randomized the data, ensuring that the sequence of records would not influence the model's performance.
 
-### 4. Data Split: I divided the dataset into distinct subsets for training, testing, and validation. This separation allowed us to train the model on one portion, validate it on another, and assess its generalization performance on a separate unseen dataset.
+### 4. Data Split: 
+I divided the dataset into distinct subsets for training, testing, and validation. This separation allowed us to train the model on one portion, validate it on another, and assess its generalization performance on a separate unseen dataset.
 
 My data engineering efforts were crucial in preparing the dataset for accurate and effective machine learning model training.
 
